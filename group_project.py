@@ -1,16 +1,30 @@
 #dollar store oregon trail by Emma and Cooper and Nate 
 
 #text that says you are in the dollar store oregon trail, you have a wife and a kid, and a wagon hauled by an ox with little supplies. Your goal is to get from minnesota to oregon. - cooper
-
+print("Welcome to the dollar store Oregon trail! You are trying to get from Minesota to Oregon. You have a spouse and a kid, and a wagon hauled by an ox with little supplies.")
 
 #You have to pass through five states, there is a challenge in each state - emma
+print("You have to pass through five states, each state has a challenge")
 
+#create a user input function that asks your name, your spouse name, your kids name, and the ox's name - nate
+    
+user = input("What is your name?: ")
+lover = input("What is your spouses name?: ")
+gremlins = input("What is the name of your kid?:")
+ox_thing = input("What is the name of your ox?: ")
+def names(user2, name):
+    print("Your",user2, "name is", name)
+    return
 
-#create a user input function that asks your name, your wifes name, your kids name, and the ox's name - nate
-
+names("user", user)
+names("spouses", lover)
+names("kdd"), gremlins
+names("ox's", ox_thing)
 
 #create a function that states you died because you were stupid. This will be called later whenever you make a wrong descicion- cooper
-
+def youdied(user, lover, gremlins, ox_thing):
+    print(f"you, {lover}, {gremlins} and {ox_thing} have died. Refresh and try again")
+    return
 
 #create loop in a function that counts how many current correct answers you have out of 5 to be called in the terminal - emma
 
@@ -22,13 +36,14 @@
 
 
 #First challenge is in north dakota, your family is starving, will you hunt or eat your supplies question 1/5, your in minnesota - cooper
-
+challenge1 = input("You arrive in north dakota, your family is starving, do you go hunt or use supplies? (type hunt or supplies)")
 
 #if you chose to eat your supplies you didnt have enough and you died - emma
-
+if challenge1 == "hunt":
+    print("you starved ,", youdied)
 
 #if you chose too go hunt, are you hunting deer or a bear question 2/5 your in north dakota - nate
-
+    else
 
 #if you chose bear, you get eaten and die - cooper
 
